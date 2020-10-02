@@ -2,12 +2,8 @@ header{
   font-family: 'Oswald', sans-serif;
 }
 
-.bg-green{
-  background-color: #158467;
-}
-
-.bg-black{
-background-color: black;
+.container-fluid{
+  flex-wrap: wrap;
 }
 
 .carson{
@@ -19,15 +15,39 @@ ul {
   list-style-type: none;
 }
 
-.rbs{
-  background-image: url(/RBS.png);
-  background-size: cover;
+.rbs1{
+  height: 65vh;
+  width: 90vh;
 }
 
-.overflow{
-  position: absolute;
-}
 
 .overflowHeight{
   height: 40vh;
+}
+
+@media (max-width: 576px) {
+  .overflow{
+    position: absolute;
+  }
+
+  .overflowOrder1{
+    order: 1;
+  }
+
+  .overflowOrder2{
+    order: 0;
+  }
+
+  .overflowMobileHeight{
+    height: 75vh;
+  }
+
+  .overflowBottom{
+    align-self: flex-end;
+  }
+
+  .overflowCenter{
+    justify-content: center;
+    padding-left: 75px;
+  }
 }
