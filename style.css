@@ -18,3 +18,8 @@ background-color: black;
 ul {
   list-style-type: none;
 }
+
+.rbs{
+  background-image: url(/RBS.png);
+  background-size: cover;
+}
