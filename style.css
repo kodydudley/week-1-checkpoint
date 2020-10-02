@@ -1,0 +1,20 @@
+header{
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-green{
+  background-color: #158467;
+}
+
+.bg-black{
+background-color: black;
+}
+
+.carson{
+  background-image: url(/carson-image.jpg);
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
